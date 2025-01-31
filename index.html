@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper World</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-title">
+                <img src="images/logo.png" alt="Logo" class="logo">
+                <h1>Wallpaper World</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle">🌙</button> <!-- Theme toggle button -->
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="hero-text">
+                <h2><a href="https://4kwallpapers.com/" target="_blank" style="color: aliceblue;">Explore Stunning Wallpapers</a></h2>
+                <p>Download high-quality wallpapers for your devices.</p>
+            </div>
+        </section>
+        
+
+        <section id="gallery" class="container">
+            <h2>Desktop Wallpapers</h2>
+            <div class="grid">
+                <div class="card">
+                    <a href="https://4kwallpapers.com/search/?q=one-piece" target="_blank">
+                        <img src="images/img1.jpg" alt="Wallpaper 1">
+                        <div class="caption">One Piece</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://4kwallpapers.com/search/?q=naruto" target="_blank">
+                        <img src="images/img2.jpg" alt="Wallpaper 2" height="150%" width="100%">
+                        <div class="caption">Naruto</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://4kwallpapers.com/search/?q=animals" target="_blank">
+                        <img src="images/img3.jpg" alt="Wallpaper 3">
+                        <div class="caption">Animals</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://4kwallpapers.com/search/?q=nature" target="_blank">
+                        <img src="images/img4.jpg" alt="Wallpaper 4">
+                        <div class="caption">Nature</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="mobile-gallery" class="container">
+            <h2>Mobile Wallpapers</h2>
+            <div class="grid">
+                <div class="card">
+                    <a href="https://4kwallpapers.com/search/?q=mobile-wallpaper-car#gsc.tab=1&gsc.q=mobile-wallpaper-flowers" target="_blank">
+                        <img src="images/flowers.jpg" alt="Mobile Wallpaper 1">
+                        <div class="caption">Flowers</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://4kwallpapers.com/search/?q=mobile-wallpaper-car#gsc.tab=1&gsc.q=mobile-wallpaper-bike" target="_blank">
+                        <img src="images/bike.jpg" alt="Mobile Wallpaper 2">
+                        <div class="caption">Bike</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://4kwallpapers.com/search/?q=mobile-wallpaper-car#gsc.tab=1&gsc.q=mobile-wallpaper-car&gsc.page=1" target="_blank">
+                        <img src="images/car.jpg" alt="Mobile Wallpaper 3">
+                        <div class="caption">Car</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://4kwallpapers.com/search/?q=mobile-wallpaper-car#gsc.tab=1&gsc.q=mobile-wallpaper-marvel" target="_blank">
+                        <img src="images/marvel.jpg" alt="Mobile Wallpaper 4">
+                        <div class="caption">Marvel</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="about" class="container">
+            <h2>About</h2>
+            <p>Welcome to our wallpaper gallery. We provide a collection of stunning wallpapers for all kinds of devices. Browse through our collection to find your perfect wallpaper!</p>
+        </section>
+
+        <section id="contact" class="container">
+            <h1>Contact us</h1>
+            <form id="contact-form" action="http://localhost:3000/submit-contact" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            
+                <button type="submit">Submit</button>
+            </form>
+            
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Wallpaper World. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>  <!-- Replace with your JS file's name -->
+</body>
+
+</body>
+</html>
